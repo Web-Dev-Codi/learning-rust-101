@@ -20,3 +20,5 @@ fn main() {
         println!("Number is equal {}", number)
     }
 }
+
+// I completed the task but neglected to use only an else block at the end. Code is working
