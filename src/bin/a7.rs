@@ -10,4 +10,21 @@
 // * Use a match expression to determine which color
 //   name to print
 
-fn main() {}
+enum Colors {
+    Red,
+    Blue,
+    Green,
+}
+
+// Colors is the type
+fn my_colors(color: Colors) {
+    match color {
+        Colors::Red => println!("Red"),
+        Colors::Blue => println!("Blue"),
+        Colors::Green => println!("Green"),
+    }
+}
+
+fn main() {
+    my_colors(Colors::Green);
+}
