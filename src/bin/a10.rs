@@ -12,4 +12,16 @@
 // * Use a match expression to determine which message
 //   to print
 
-fn main() {}
+fn print_message() {
+    let value: i32 = 55;
+    let blean: bool = if value > 100 { true } else { false };
+
+    let print_mes = match blean {
+        true => println!("It's Big"),
+        false => println!("it's Small"),
+    };
+}
+
+fn main() {
+    print_message();
+}
