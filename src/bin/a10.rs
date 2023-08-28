@@ -1,7 +1,6 @@
 // Topic: Working with expressions
 //
-// Requirements:
-// * Print "its big" if a variable is > 100
+
 // * Print "its small" if a variable is <= 100
 //
 // Notes:
