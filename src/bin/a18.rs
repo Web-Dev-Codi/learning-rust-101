@@ -16,4 +16,6 @@
 //   * For the Ok variant, print any message you want
 //   * For the Err variant, print out the error message
 
-fn main() {}
+fn main() {
+    println!("Hello Linux Distro")
+}
